@@ -11,3 +11,10 @@ while True:
 
 name = input("Qual é o seu nome? ").strip()
 print(f"Ótimo, {name}! Vamos começar o jogo.\n")
+
+answer = input("Qual é a capital da França? ").strip().lower()
+if answer == "paris":
+    print("Correto! Paris é a capital da França.")
+else:
+    print("Incorreto. A resposta correta é Paris.")
+
